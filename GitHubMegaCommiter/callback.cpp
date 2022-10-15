@@ -6,7 +6,7 @@ LRESULT KBCallBack(int code, WPARAM wParam, LPARAM lParam)
 	if (code >= 0)
 		if (wParam == WM_KEYDOWN)
 		{
-			system("git commit -am \"da\" && git push");
+			system("git add . && git commit -am \"da\" && git push");
 		}
 			
 
